@@ -3,7 +3,7 @@ import cors from 'cors';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import dotenv from 'dotenv';
-import { publishEvent } from './redis';
+import { publishEvent } from './redis.js';
 
 dotenv.config();
 
